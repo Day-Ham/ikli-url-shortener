@@ -1,0 +1,8 @@
+### Test POST with google.com link
+POST http://localhost:5123/shorten
+Content-Type: application/json
+
+{
+  "url": "https://www.youtube.com"
+}
+
